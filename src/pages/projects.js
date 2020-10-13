@@ -6,7 +6,9 @@ const Projects = () => {
   return (
     <Layout>
       <h1>Projects</h1>
-      <p></p>
+      <h3>Accessory Exercises Generator</h3>
+      <h3>Recipes</h3>
+      <h3>Learning</h3>
     </Layout>
   )
 }
