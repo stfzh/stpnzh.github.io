@@ -1,7 +1,16 @@
 import Typography from 'typography';
-import fairyGateTheme from 'typography-theme-github';
+import githubTheme from 'typography-theme-github';
 
-const typography = new Typography(fairyGateTheme)
+const typography = new Typography(githubTheme)
 
 export const { scale, rhythm, options } = typography
+
+// githubTheme.overrideThemeStyles = () => ({
+//   'ul': {
+//     color: `gray`,
+//   },
+// })
+
+
+
 export default typography;

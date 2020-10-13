@@ -10,18 +10,27 @@ const ListLink = (props) => (
 
 const Layout = ({children}) => {
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
+    <div style={{ margin: `3rem auto`, maxWidth: `45%`, padding: `0 1rem` }}>
+      
       <header style={{ marginBottom: `1.5rem` }}>
-      <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+      
+      {/* <Link to="/" style={{ textShadow: `none`, backgroundImage: `none`, fontColor: `gray` }}>
         <h3 style={{ display: `inline` }}>stephanie zhu</h3>
-      </Link>
+      </Link> */}
+      
+      {/* <Link to="/" style={{ textShadow: `none`, backgroundImage: `none`, fontColor: `gray` }}> */}
+        <h3 style={{ display: `inline`, font: `Georgia`}}>stpnzh</h3>
+      {/* </Link> */}
+
       <ul style={{ listStyle: `none`, float: `right` }}>
         <ListLink to='/'>home</ListLink>
         <ListLink to='/about/'>about</ListLink>
       </ul>
+      
       </header>
 
       {children}
+
     </div>
   )
 }
