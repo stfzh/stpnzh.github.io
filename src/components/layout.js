@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { Helmet } from 'react-helmet';
 import '../styles/global.css';
 
 const ListLink = (props) => (
@@ -11,7 +12,9 @@ const ListLink = (props) => (
 const Layout = ({children}) => {
   return (
     <div className='layout-container'>
-      
+      <Helmet>
+        <title>Stephanie Zhu</title>
+      </Helmet>
       <header style={{ marginBottom: `1.5rem` }}>
         <Link to='/'>
           <h3 style={{ display: `inline`}}></h3>
