@@ -16,7 +16,7 @@ const Home = () => {
           <br />
           Always learning.
         </p>
-        <p>While you're here, check out <Link to='/projects' style={{color: `#209cee`}}>my projects</Link> or <Link href='mailto:stphzh@gmail.com' style={{color: `#209cee`}}>drop a line</Link>.</p>
+        <p>While you're here, check out <Link to='/projects' style={{color: `#209cee`}}>my projects</Link> or <Link href='mailto:slzzhu2@gmail.com' style={{color: `#209cee`}}>drop a line</Link>.</p>
       </div>
     </Layout>
   )
