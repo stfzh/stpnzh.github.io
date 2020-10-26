@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-
+import '../styles/global.css';
 
 const ListLink = (props) => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -10,27 +10,24 @@ const ListLink = (props) => (
 
 const Layout = ({children}) => {
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: `45%`, padding: `0 1rem` }}>
+    <div className='layout-container'>
       
       <header style={{ marginBottom: `1.5rem` }}>
-      
-      {/* <Link to="/" style={{ textShadow: `none`, backgroundImage: `none`, fontColor: `gray` }}>
-        <h3 style={{ display: `inline` }}>stephanie zhu</h3>
-      </Link> */}
-      
-      {/* <Link to="/" style={{ textShadow: `none`, backgroundImage: `none`, fontColor: `gray` }}> */}
-        <h3 style={{ display: `inline`, font: `Georgia`}}>stpnzh</h3>
-      {/* </Link> */}
+        <Link to='/'>
+          <h3 style={{ display: `inline`}}></h3>
+        </Link>
 
-      <ul style={{ listStyle: `none`, float: `right` }}>
-        <ListLink to='/'>home</ListLink>
-        <ListLink to='/projects/'>projects</ListLink>
-      </ul>
+        <ul className='nav-list'>
+          <ListLink to='/' className='nav-links'>home</ListLink>
+          <ListLink to='/story' className='nav-links'>story</ListLink>
+          <ListLink to='/projects' className='nav-links'>projects</ListLink>
+        </ul>
       
       </header>
 
+      <main>
       {children}
-
+      </main>
     </div>
   )
 }

@@ -1,0 +1,29 @@
+.nav-list {
+  list-style: none;
+  float: right;
+}
+
+.layout-container {
+  margin: auto;
+  margin-top: 3rem;
+  max-width: 50%;
+  padding: 1rem;
+}
+
+a:link, a:visited {
+  color: #b5b5b5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #209cee;
+  text-decoration: underline;
+}
+
+h1 {
+  color: #ff3860;
+}
+
+.nav-links {
+  color: gray;
+}
