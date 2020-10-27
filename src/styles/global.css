@@ -25,5 +25,9 @@ h1 {
 }
 
 .nav-links {
-  color: gray;
+  /* color: gray; */
+}
+
+.colored-links {
+  color: #209cee;
 }

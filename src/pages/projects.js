@@ -11,17 +11,17 @@ const Projects = () => {
   return (
     <Layout>
       <h1>Projects.</h1>
-      <h3>Appointment Picker</h3>
+      <h2>Appointment Picker.</h2>
       <Appointment />
-      <h3>Weight Tracking Chart</h3>
+      <h2>Weight Tracking Chart.</h2>
       <Weight />
-      <h3>Accessory Exercises Generator</h3>
+      <h2>Accessory Exercises Generator.</h2>
       <Accessory />
-      <h3>Recipes by the Cards</h3>
+      <h2>Some of my favorite recipes.</h2>
       <Recipes />
-      <h3>Predicting the 2019-20 NBA MVP</h3>
+      <h2>Predicting the 2019-20 NBA MVP.</h2>
       <NBA />
-      <h3>This site.</h3>
+      <h2>This site.</h2>
       <p>Built with Gatsby.</p>
     </Layout>
   )
