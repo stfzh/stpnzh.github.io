@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
+import '../styles/mystyles.scss';
 
 const Home = () => {
   return (
     <Layout>
       <div>
-        <h1>Hi, I'm Stephanie.</h1>
+        <h1 className='title is-1 is-primary'>Hi, I'm Stephanie.</h1>
         <p>
           Working on software engineering.
           <br />
@@ -16,7 +17,8 @@ const Home = () => {
           <br />
           Always learning.
         </p>
-        <p>While you're here, check out <Link to='/projects' style={{color: `#209cee`}}>my projects</Link> or <Link href='mailto:slzzhu2@gmail.com' style={{color: `#209cee`}}>drop a line</Link>.</p>
+        <br />
+        <p>While you're here, check out <Link to='/projects' className='link is-primary'>my projects</Link> or <Link href='mailto:slzzhu2@gmail.com' className='link is-primary'>drop a line</Link>.</p>
       </div>
     </Layout>
   )

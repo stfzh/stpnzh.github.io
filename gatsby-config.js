@@ -13,7 +13,8 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography'
       },
     },
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
   ],
   
 }

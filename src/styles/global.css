@@ -10,24 +10,31 @@
   padding: 1rem;
 }
 
-a:link, a:visited {
+/* a:link, a:visited {
   color: #b5b5b5;
   text-decoration: none;
-}
+} */
 
 a:hover {
-  color: #209cee;
+  /* color: #209cee; */
   text-decoration: underline;
 }
 
-h1 {
-  color: #ff3860;
+
+.card {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  height: 14rem; 
 }
 
-.nav-links {
-  /* color: gray; */
+.card-content {
+  font-size: 95%;
 }
 
-.colored-links {
-  color: #209cee;
+td {
+  width: 50%;
+}
+
+table, tr, td {
+  border: none; 
 }

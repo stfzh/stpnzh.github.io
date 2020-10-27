@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Recipes from '../components/projects/Recipes';
 import Weight from '../components/projects/Weight';
@@ -10,19 +11,75 @@ import NBA from '../components/projects/NBA';
 const Projects = () => {
   return (
     <Layout>
-      <h1>Projects.</h1>
-      <h2>Appointment Picker.</h2>
-      <Appointment />
-      <h2>Weight Tracking Chart.</h2>
-      <Weight />
-      <h2>Accessory Exercises Generator.</h2>
-      <Accessory />
-      <h2>Some of my favorite recipes.</h2>
-      <Recipes />
-      <h2>Predicting the 2019-20 NBA MVP.</h2>
-      <NBA />
-      <h2>This site.</h2>
-      <p>Built with Gatsby.</p>
+      <h1 className='title is-2'>Projects.</h1>
+      <table>
+        <tr>
+          <td>
+            <div className="card">
+              <div className="card-content" >
+                <div className="content">
+                  <h4>Appointment Picker.</h4>
+                  <Appointment />
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div className="card">
+              <div className="card-content">
+                <div className="content">
+                  <h4>Weight tracking.</h4>
+                  <Weight />
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div className="card">
+              <div className="card-content" >
+                <div className="content">
+                  <h4>Accessory exercises.</h4>
+                  <Accessory />
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div className="card">
+              <div className="card-content">
+                <div className="content">
+                  <h4><Link className='is-primary' href='https://stpnzh.github.io/recipes/'>Recipes.</Link></h4>
+                  <Recipes />
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div className="card">
+              <div className="card-content" >
+                <div className="content">
+                  <h4>NBA.</h4>
+                  <NBA />
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div className="card">
+              <div className="card-content">
+                <div className="content">
+                  <h4><Link className='is-primary'>This site.</Link></h4>
+                  <p>Built with Gatsby & Bulma.</p>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
     </Layout>
   )
 }

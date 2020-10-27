@@ -6,8 +6,9 @@ const Appointment = () => {
     <div>
       <p>
       Similar view to booking appointments on Lever.
-      <br/>
-      Built with the MERN stack, plus Bulma CSS.
+      </p>
+      <p>
+      Built with the MERN stack & Bulma.
       </p>
     </div>
   )

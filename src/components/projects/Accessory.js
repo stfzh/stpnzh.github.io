@@ -6,7 +6,8 @@ const Accessory = () => {
     <div>
       <p>
       Generate accessory exercises.
-      <br/>
+      </p>
+      <p>
       Built with Flask & Tailwind CSS.
       </p>
     </div>

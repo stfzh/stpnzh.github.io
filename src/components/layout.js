@@ -21,9 +21,9 @@ const Layout = ({children}) => {
         </Link>
 
         <ul className='nav-list'>
-          <ListLink to='/' className='nav-links'>home</ListLink>
-          <ListLink to='/story' className='nav-links'>story</ListLink>
-          <ListLink to='/projects' className='nav-links'>projects</ListLink>
+          <ListLink to='/'>home</ListLink>
+          <ListLink to='/story'>story</ListLink>
+          <ListLink to='/projects'>projects</ListLink>
         </ul>
       
       </header>

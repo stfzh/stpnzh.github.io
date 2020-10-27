@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 const Story = () => {
   return (
     <Layout>
-      <h1>Story.</h1>
+      <h1 className='title is-2'>Story.</h1>
       <p>To come.</p>
     </Layout>
   )

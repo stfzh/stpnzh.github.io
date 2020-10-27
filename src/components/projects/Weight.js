@@ -6,8 +6,9 @@ const Weight = () => {
     <div>
       <p>
       Track your weight and render your progress in a nice chart. Dedicated to my dog. 
-      <br/>
-      Built with the MERN stack, plus Semantic UI.
+      </p>
+      <p>
+      Built with the MERN stack & Semantic UI.
       </p>
     </div>
   )

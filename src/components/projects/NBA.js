@@ -6,8 +6,9 @@ const NBA = () => {
     <div>
       <p>
       Dabbling in machine learning. Predict the NBA MVP.
-      <br/>
-      Built in Python in Jupyter notebook.
+      </p>
+      <p>
+      Built with Pandas, Scikit-Learn, & Seaborn in Jupyter notebook.
       </p>
     </div>
   )
