@@ -1,15 +1,23 @@
 import React from 'react';
-
+import { Link } from 'gatsby';
+import GithubSVG from '../svg/github.inline.svg';
+import LinkSVG from '../svg/link.inline.svg';
 
 const Weight = () => {
   return (
     <div>
+      <h4>Weight tracker.</h4>
       <p>
-      Track your weight and render your progress in a nice chart. Dedicated to my dog. 
+      Weight tracking with a beautiful chart. 
       </p>
       <p>
-      Built with the MERN stack & Semantic UI.
+      Built with the MERN stack, Chart.js, & Semantic UI.
       </p>
+      <span>
+        <Link href='https://github.com/stpnzh/weight-tracker-chart'>
+          <GithubSVG style={{ marginRight: `1rem`}}/>
+        </Link>
+      </span>
     </div>
   )
 }

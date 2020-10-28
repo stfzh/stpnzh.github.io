@@ -7,13 +7,13 @@ const Home = () => {
   return (
     <Layout>
       <div>
-        <h1 className='title is-1 is-primary'>Hi, I'm Stephanie.</h1>
+        <h1 className='subtitle is-1'>Hi, I'm Stephanie.</h1>
         <p>
           Working on software engineering.
           <br />
           Living in the SF Bay Area.
           <br />
-          Enjoying cooking, powerlifting, bicycling, and snowboarding. Enjoying cooking, powerlifting, bicycling, and snowboarding.
+          Enjoying cooking, powerlifting, bicycling, and snowboarding.
           <br />
           Always learning.
         </p>

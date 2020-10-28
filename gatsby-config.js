@@ -13,6 +13,14 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography'
       },
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /\.inline\.svg$/
+        }
+      }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
   ],

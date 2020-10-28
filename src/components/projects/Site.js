@@ -3,21 +3,18 @@ import { Link } from 'gatsby';
 import GithubSVG from '../svg/github.inline.svg';
 import LinkSVG from '../svg/link.inline.svg';
 
-const Recipes = () => {
+const Site = () => {
   return (
     <div>
-      <h4>Recipes.</h4>
+      <h4>This site.</h4>
       <p>
-        Not so basic recipes in a semi-basic recipes app.
-      </p>
-      <p>
-        Built with React & Bootstrap.
+        Built with Gatsby, React, & Bulma.
       </p>
       <span>
-        <Link href='https://github.com/stpnzh/recipes'>
+        <Link href='https://github.com/stpnzh/stpnzh.github.io'>
           <GithubSVG style={{ marginRight: `1rem`}}/>
         </Link>
-        <Link href='https://stpnzh.github.io/recipes/'>
+        <Link href='https://stpnzh.github.io/'>
           <LinkSVG />
         </Link>
       </span>
@@ -25,4 +22,4 @@ const Recipes = () => {
   )
 }
 
-export default Recipes;
+export default Site;
