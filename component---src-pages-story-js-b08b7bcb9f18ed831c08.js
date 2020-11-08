@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{h1Gf:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a),c=n("Bl7J");t.default=function(){return l.a.createElement(c.a,null,l.a.createElement("h1",{className:"subtitle is-2"},"Story."),l.a.createElement("p",null,"To come."))}}}]);
+//# sourceMappingURL=component---src-pages-story-js-b08b7bcb9f18ed831c08.js.map
