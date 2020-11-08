@@ -6,16 +6,13 @@ import LinkSVG from '../svg/link.inline.svg';
 const Weight = () => {
   return (
     <div>
-      <h4>Weight tracker.</h4>
-      <p>
-      Weight tracking with a beautiful chart. 
-      </p>
-      <p>
-      Built with the MERN stack, Chart.js, & Semantic UI.
-      </p>
-      <span>
-        <Link href='https://github.com/stpnzh/weight-tracker-chart'>
-          <GithubSVG style={{ marginRight: `1rem`}}/>
+      <p className='title is-4'>Weights.</p>
+      <p>Track weights with a beautiful chart. </p>
+      <p>Built with the MERN stack, Chart.js, & Semantic UI.</p>
+      <br />
+      <span class="icon has-text-info">
+        <Link href='https://github.com/stpnzh/weight-tracker-chart' className='link is-primary'>
+          <GithubSVG />
         </Link>
       </span>
     </div>

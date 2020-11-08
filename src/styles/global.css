@@ -1,40 +1,21 @@
-.nav-list {
-  list-style: none;
-  float: right;
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+  background-color: #2f303a;
+  font-color: white;
 }
 
-.layout-container {
-  margin: auto;
-  margin-top: 3rem;
-  max-width: 50%;
-  padding: 1rem;
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
 }
 
-/* a:link, a:visited {
-  color: #b5b5b5;
-  text-decoration: none;
-} */
-
-a:hover {
-  /* color: #209cee; */
-  text-decoration: underline;
+.table.is-borderless {
+  background-color: #2f303a;
 }
 
-/* 
-.card {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  height: 14rem; 
-}
-
-.card-content {
-  font-size: 95%;
-} */
-
-td {
-  width: 50%;
-}
-
-table, tr, td {
-  border: none; 
+.tile {
+  display: flex;
+  justify-content: center;
 }

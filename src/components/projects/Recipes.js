@@ -5,14 +5,11 @@ import LinkSVG from '../svg/link.inline.svg';
 
 const Recipes = () => {
   return (
-    <div>
-      <h4>Recipes.</h4>
-      <p>
-        Not so basic recipes in a semi-basic recipes app.
-      </p>
-      <p>
-        Built with React & Bootstrap.
-      </p>
+    <>
+      <p className='title is-4'>Recipes.</p>
+      <p>Not so basic recipes in a semi-basic recipes app.</p>
+      <p>Built with React & Bootstrap.</p>
+      <br />
       <span>
         <Link href='https://github.com/stpnzh/recipes'>
           <GithubSVG style={{ marginRight: `1rem`}}/>
@@ -21,7 +18,7 @@ const Recipes = () => {
           <LinkSVG />
         </Link>
       </span>
-    </div>
+    </>
   )
 }
 

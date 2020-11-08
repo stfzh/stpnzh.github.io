@@ -6,27 +6,26 @@ import Appointment from '../components/projects/Appointment';
 import Accessory from '../components/projects/Accessory';
 import NBA from '../components/projects/NBA';
 import Site from '../components/projects/Site';
+import Pattern from '../components/projects/Pattern';
 
 
-const components = [<Appointment />, <Accessory />, <Recipes />, 
-                    <Weight />, <NBA />, <Site />]
+const components = [
+  <Appointment />, <Accessory />, <Recipes />, 
+  <Weight />, <Pattern />, <NBA />, <Site />
+];
 
 const cardComponents = components.map(i => 
-  <td style={{border: `none`}}>
-  <div className="card">
-    <div className="card-content" >
-      <div className="content">
-        {i}
-      </div>
-    </div>
+  <div class="tile is-2 is-parent">
+    <article className='tile is-child box'>
+      {i}
+    </article>
   </div>
-  </td>
 )
 
 let rows = [];
 let cells = [];
 cardComponents.forEach((component, idx) => {
-  if (idx % 2 != 0) {
+  if (idx % 3 != 0) {
     cells.push(component);
   } else {
     rows.push(cells);
@@ -34,19 +33,16 @@ cardComponents.forEach((component, idx) => {
     cells.push(component);
   }
   if (idx === cardComponents.length - 1) {
-    rows.push(cells)
+    rows.push(cells);
   }
 });
 
 
 const Projects = () => {
   return (
-    <Layout>
-      <h1 className='subtitle is-2'>Projects.</h1>
-      <table className='table is-borderless'>
-       {rows.map(row => <tr>{row}</tr>)}
-      </table>
-    </Layout>
+      <div>
+        {rows.map(row => <div className='tile is-ancestor'>{row}</div>)}
+      </div>
   )
 }
 

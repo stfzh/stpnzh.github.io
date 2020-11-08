@@ -3,26 +3,22 @@ import { Link } from 'gatsby';
 import GithubSVG from '../svg/github.inline.svg';
 import LinkSVG from '../svg/link.inline.svg';
 
-
 const Accessory = () => {
   return (
-    <div>
-      <h4>Exercises.</h4>
-      <p>
-        Generate accessory exercises.
-      </p>
-      <p>
-        Built with Flask & Bootstrap.
-      </p>
+    <>
+      <p className='title is-4'>Exercises.</p>
+      <p>Generate accessory exercises.</p>
+      <p>Built with Flask & Bootstrap.</p>
+      <br />
       <span>
-      <Link href='https://github.com/stpnzh/exercises'>
-        <GithubSVG style={{ marginRight: `1rem`}}/>
-      </Link>
-      <Link href='https://polar-mountain-37048.herokuapp.com/'>
-        <LinkSVG />
-      </Link>
+        <Link href='https://github.com/stpnzh/exercises'>
+          <GithubSVG style={{ marginRight: `1rem`}}/>
+        </Link>
+        <Link href='https://polar-mountain-37048.herokuapp.com/'>
+          <LinkSVG />
+        </Link>
       </span>
-    </div>
+    </>
   )
 }
 

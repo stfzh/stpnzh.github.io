@@ -5,11 +5,10 @@ import LinkSVG from '../svg/link.inline.svg';
 
 const Site = () => {
   return (
-    <div>
-      <h4>This site.</h4>
-      <p>
-        Built with Gatsby, React, & Bulma.
-      </p>
+    <>
+      <p className='title is-4'>This site.</p>
+      <p>Built with Gatsby, React, & Bulma.</p>
+      <br />
       <span>
         <Link href='https://github.com/stpnzh/stpnzh.github.io'>
           <GithubSVG style={{ marginRight: `1rem`}}/>
@@ -18,7 +17,7 @@ const Site = () => {
           <LinkSVG />
         </Link>
       </span>
-    </div>
+    </>
   )
 }
 
