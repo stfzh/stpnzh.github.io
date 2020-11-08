@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import Projects from './projects';
 import '../styles/mystyles.scss';
@@ -7,7 +8,9 @@ import '../styles/mystyles.scss';
 const Home = () => {
   return (
     <div className='hero p-5'>
-      
+      <Helmet>
+        <title>Stephanie Zhu</title>
+      </Helmet>
       <section className='hero'>
         <div className='container has-text-white'>
           <h1 className='subtitle is-1 has-text-white'>Hi, I'm Stephanie Zhu.</h1>

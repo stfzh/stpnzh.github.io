@@ -1,11 +1,18 @@
 @charset "utf-8";
-// If needed, change your variables before importing Bulma
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+// Change Bulma variables here before import
+
+// Set my own variables
+$title-font: 'Permanent Marker', cursive;
+$main-font: 'Quicksand', sans-serif;
+
+// Set the derived variables
 $link: #EDB0D3;
 $link-hover: #948098;
 $title: #948098;
+$family-primary: $main-font;
+$body-background-color: #2f303a;
 
-
-
-
+// Import the rest of Bulma
 @import "~bulma/bulma.sass";

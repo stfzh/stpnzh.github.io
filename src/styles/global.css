@@ -1,19 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-body {
-  background-color: #2f303a;
-  font-color: white;
-}
 
 
 h1 {
   font-family: 'Permanent Marker', cursive;
 }
 
-.table.is-borderless {
-  background-color: #2f303a;
-}
 
 .tile {
   display: flex;
