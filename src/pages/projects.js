@@ -11,7 +11,7 @@ import Pattern from '../components/projects/Pattern';
 
 const components = [
   <Appointment />, <Accessory />, <Recipes />, 
-  <Weight />, <Pattern />, <NBA />, <Site />
+  <Weight />, <NBA />, <Site />
 ];
 
 const cardComponents = components.map(i => 
